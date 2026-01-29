@@ -75,3 +75,12 @@ console.log("Reversed Array:", num.reverse())
 
 let nestedArr = [1, [2, 3], [4, [5, 6]]];
 console.log("Flattened Array:", nestedArr.flat(2));
+
+//array destructing
+let array =[1,2,3,4,5]
+const [first, second, third]=array
+console.log(first, second, third)
+
+let array1 =[10,20,30,40,50]
+const [a, , b, , c]=array1
+console.log(a, b, c)

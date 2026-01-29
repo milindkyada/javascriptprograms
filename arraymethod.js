@@ -84,3 +84,9 @@ console.log(first, second, third)
 let array1 =[10,20,30,40,50]
 const [a, , b, , c]=array1
 console.log(a, b, c)
+
+//rest operator //spread operator
+const num1=[1,2,3,4,5]
+const [x, y, ...rest]=num1
+console.log(x, y)
+console.log(rest)
